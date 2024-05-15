@@ -6,7 +6,7 @@ Inspired by the work of Paco Coursey and Rauno Frieberg with their [CmdK](https:
 
 Core dependencies are TailwindCSS and FuseJS. TailwindCSS purely because that's what I use on my personal site and FuseJS because it was the easiest and simplest for me to integrate.
 
-To see it in action, go to [shawnmcclelland.com](https://www.shawnmcclelland.com) and click on the ⌘ icon or press Cmd-K and start typing.
+To see it in action, go to [shawnmcclelland.com](https://www.shawnmcclelland.com) and click on the `⌘`` icon or press `CMD+K`/`CTRL+K` and start typing.
 
 The design file can also be found as part of my Hej design system in [Figma](https://www.figma.com/design/3zAVI0i6aRZqqWS3ptDvuj/Fast-Search?node-id=1%3A196&t=pIyrirnniY3SNrL7-1)
 
@@ -230,24 +230,9 @@ function executeSearch(term) {
 }
 ```
 
-```yaml
-menus:
-  main:
-  - identifier: string-identifier
-    name: menu-name
-    url: /hugo-url/
-    pre: "icon-name"
-    weight: 1
-  - identifier: string-identifier
-    name: menu-name
-    url: /hugo-url/
-    pre: "icon-name"
-    weight: 2
-```
-
 ## assets/css/fastsearch.css
 
-Additional CSS styling is applied outside Tailwind... because ¯\_(ツ)_/¯
+Additional CSS styling is applied outside Tailwind... because `¯\_(ツ)_/¯`
 
 ```css
 #fast-search { 
@@ -426,7 +411,7 @@ A few things needed to be added to the `config.yaml` file for this to all work p
 
 First, we need to define what outputs we want Hugo to create the index with:
 
-```
+```yaml
 outputs:
   home:
     - html
